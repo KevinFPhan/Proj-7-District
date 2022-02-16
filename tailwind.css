@@ -557,7 +557,7 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 .bg-soldier {
-  background-image: url('https://desque.sfo3.cdn.digitaloceanspaces.com/kevin/DistrictSecurityForce/DistrictSecurityForce_Wallpaper-1024x576.png');
+  background-image: url('https://desque.sfo3.cdn.digitaloceanspaces.com/districtsecurityforce/DistrictSecurityForce_Wallpaper-1024x576.png');
 }
 
 .bg-cover {
@@ -588,11 +588,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-lg {
   font-size: 1.125rem;
-  line-height: 1.75rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -646,11 +641,6 @@ body {
     line-height: 2.5rem;
   }
 
-  .md\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .md\:text-\[18px\] {
     font-size: 18px;
   }
@@ -665,16 +655,6 @@ body {
     font-size: 3rem;
     line-height: 1;
   }
-
-  .lg\:text-7xl {
-    font-size: 4.5rem;
-    line-height: 1;
-  }
-
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
 }
 
 @media (min-width: 1280px) {
@@ -685,11 +665,6 @@ body {
 }
 
 @media (min-width: 1536px) {
-  .\32xl\:px-52 {
-    padding-left: 13rem;
-    padding-right: 13rem;
-  }
-
   .\32xl\:px-48 {
     padding-left: 12rem;
     padding-right: 12rem;
