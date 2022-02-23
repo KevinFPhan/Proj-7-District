@@ -529,10 +529,23 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 33.333333%;
 }
 
+.w-fit {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
 .max-w-fit {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
+}
+
+.select-none {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
 }
 
 .flex-col {
@@ -665,6 +678,10 @@ body {
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:gap-28 {
+    gap: 7rem;
+  }
+
   .\32xl\:px-48 {
     padding-left: 12rem;
     padding-right: 12rem;
